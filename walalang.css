@@ -1,0 +1,27 @@
+body{
+    margin:0;
+    padding:0;
+    background:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+p{
+    width:95vw;
+    height:95vh;
+
+    background-image:url("portraittt.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+
+    font-size:12px;
+    line-height:10px;
+    text-align:justify;
+
+    -webkit-background-clip:text;
+    background-clip:text;
+    color:transparent;
+}
